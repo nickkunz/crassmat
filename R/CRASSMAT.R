@@ -2,7 +2,6 @@
 #' @description This package includes CRASSMAT, a function for conditional random sampling out observations in sparse matrices. CRASSMAT takes a given sparse matrix Aij and samples out a single jth value on the condition that the number of jth values within the ith observation is greater than the specified conditional (minimum number of values to remain per ith observation). This process repeats itself until the specified sampling threshold is met. Although CRASSMAT was designed for applications with sparse matrices, it can also be applied to complete matrices or those with missing values. This package is useful for applications where sampling out observed values in a matrix is important for testing the predictive accuracy of data imputation methods, such as matrix factorization or singular value decomposition (SVD).
 #' @keywords matrix, matrix sampling, sparse matrix, conditional random sampling, matrix factorization, svd sampling
 #'
-#'
 #' @param sparse_matrix data
 #' @param test_split_thres percent sampled out of matrix from observed values
 #' @param conditional number of observed values in matrix to remain per row
@@ -11,9 +10,9 @@
 #'
 #' @examples 
 #' ## crassmat example
-#' A_training <- crassmat(sparse_matrix = A,        ## matrix
-#'                        test_split_thres = 0.20,  ## percent sampled out of matrix from observed values
-#'                        conditional = 1)          ## number of observed values in matrix to remain per row
+#' A_training <- crassmat(sparse_matrix = A,
+#'                        test_split_thres = 0.20,
+#'                        conditional = 1)
 #'
 #' @export crassmat
 
@@ -66,4 +65,3 @@ crassmat <- function(sparse_matrix, test_split_thres, conditional) {
 } ## close function
 
 ## end
-
