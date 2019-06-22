@@ -7,9 +7,10 @@
 #' @param conditional number of observed values in matrix to remain per row
 #'
 #' @return sampled matrix
-#'
+#' @usage data(A)
+#' 
 #' @examples 
-#' ## crassmat example
+#' data(A)
 #' A_training <- crassmat(sparse_matrix = A,
 #'                        test_split_thres = 0.20,
 #'                        conditional = 1)
@@ -21,7 +22,6 @@
 ## author: nick kunz <nick.kunz@columbia.edu>
 ## created: 04/22/2019
 ## updated: 06/20/2019
-## dependencies: svMisc
 
 ## create crassmat
 crassmat <- function(sparse_matrix, test_split_thres, conditional) {
