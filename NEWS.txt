@@ -1,0 +1,9 @@
+CRASSMAT-0.0.1: 2019-06-22
+======================
+- Initial version for open source publication
+- Conducts conditional random sampling for sparse matrices 
+- Contains two primary specifications:
+	1) the sampling threshold
+	2) the number of observed values to remain per row
+- Returns matrix, which has been sampled without replacement
+- Works on complete matrices, as well as those containing missing values
