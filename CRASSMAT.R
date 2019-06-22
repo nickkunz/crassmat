@@ -3,7 +3,6 @@
 ## author: nick kunz <nick.kunz@columbia.edu>
 ## created: 04/22/2019
 ## updated: 06/20/2019
-## dependencies: svMisc
 
 ## create crassmat
 crassmat <- function(sparse_matrix, test_split_thres, conditional) {

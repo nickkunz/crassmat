@@ -67,3 +67,7 @@ crassmat <- function(sparse_matrix, test_split_thres, conditional) {
 } ## close function
 
 ## end
+
+A_training <- crassmat(sparse_matrix = A,
+                       test_split_thres = 0.20,
+                        conditional = 1)
