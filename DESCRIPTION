@@ -8,4 +8,5 @@ Description: This package includes CRASSMAT, a function for conditional random s
 License: GPL-3
 Encoding: UTF-8
 Import: svMisc
+LazyData: true
 RoxygenNote: 6.1.1
