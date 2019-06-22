@@ -7,6 +7,8 @@
 #' @param conditional number of observed values in matrix to remain per row
 #'
 #' @return sampled matrix
+#' 
+#' @docType data
 #' @usage data(A)
 #' 
 #' @examples 
