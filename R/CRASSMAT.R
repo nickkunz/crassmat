@@ -4,10 +4,10 @@
 #' @aliases crassmat
 #' @author Nick Kunz <nick.kunz@columbia.edu>
 #' @export crassmat
-#' @param data either a sparse matrix, a complete matrix, or a matrix containing missing values
+#' @param data a sparse matrix, a complete matrix, or a matrix containing missing values
 #' @param sample_thres a non-negative decimal specifying the percentage sampled out of the matrix from observed values 
-#' @param conditional a non-negative integer specifying the number of observed values in matrix to remain per row
-#' @return The returned object is a matrix with x number of values sampled without replacement based on the specified sampling threshold and conditional set by the user.
+#' @param conditional a non-negative integer specifying the number of observed values in the matrix to remain per row
+#' @return The returned object is a matrix with x number of values sampled (without replacement) based on the specified sampling threshold and conditional set by the user.
 #' @examples
 #' \dontrun{
 #' A_train <- crassmat(data = A,            # matrix to train / test split
