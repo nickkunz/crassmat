@@ -8,6 +8,12 @@
 #' @param sample_thres a non-negative decimal specifying the percentage sampled out of the matrix from observed values 
 #' @param conditional a non-negative integer specifying the number of observed values in matrix to remain per row
 #' @return The returned object is a matrix with x number of values sampled without replacement based on the specified sampling threshold and conditional set by the user.
+#' @examples
+#' \dontrun{
+#' A_train <- crassmat(data = A,            # matrix to train / test split
+#'                     sample_thres = 0.20, # remove 20% of observed values
+#'                     conditional = 1)     # keep > 1 observed value per row
+#' }
 ## create crassmat
 crassmat <- function(data, sample_thres, conditional) {
     
