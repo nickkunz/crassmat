@@ -1,6 +1,11 @@
+CRASSMAT-0.0.2: 2019-06-23
+==========================
+- Completed CRAN corrections and documentation
+- Includes example vignette 
+
 CRASSMAT-0.0.1: 2019-06-22
-======================
-- Initial version
+==========================
+- Initial version, submitted to CRAN for review
 - Conducts conditional random sampling for sparse matrices 
 - Contains three user specifications:
 	1) a given matrix
