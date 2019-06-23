@@ -20,7 +20,7 @@ The returned object is a matrix with x number of values sampled without replacem
 This package includes CRASSMAT, a function for conditional random sampling observations in sparse matrices. CRASSMAT takes a given sparse matrix Aij and samples out a single jth value on the condition that the number of jth values within the ith observation is greater than the specified conditional (minimum number of values to remain per ith observation). This process repeats itself until the specified sampling threshold is met. Although CRASSMAT was designed for applications with sparse matrices, it can also be used with complete matrices or those with missing values. This package is useful for applications where sampling out observed values in a matrix is important for testing the predictive accuracy of data imputation methods, such as matrix factorization or singular value decomposition (SVD).
 }
 \author{
-Nick Kunz
+Nick Kunz <nick.kunz@columbia.edu>
 }
 \keyword{conditional}
 \keyword{imputation}
