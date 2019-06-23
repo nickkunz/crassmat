@@ -1,12 +1,14 @@
 Package: crassmat
 Type: Package
 Title: Conditional Random Sampling Sparse Matrices
-Version: 0.1
+Version: 0.0.1
+Date: 2019-06-22
 Author: Nick Kunz
 Maintainer: Nick Kunz <nick.kunz@columbia.edu>
 Description: This package includes CRASSMAT, a function for conditional random sampling observations in sparse matrices. CRASSMAT takes a given sparse matrix Aij and samples out a single jth value on the condition that the number of jth values within the ith observation is greater than the specified conditional (minimum number of values to remain per ith observation). This process repeats itself until the specified sampling threshold is met. Although CRASSMAT was designed for applications with sparse matrices, it can also be used with complete matrices or those with missing values. This package is useful for applications where sampling out observed values in a matrix is important for testing the predictive accuracy of data imputation methods, such as matrix factorization or singular value decomposition (SVD).
 License: GPL-3
+Depends: svMisc 
+Import: svMisc 
 Encoding: UTF-8
-Import: svMisc
-LazyData: true
 RoxygenNote: 6.1.1
+ByteCompile: TRUE
