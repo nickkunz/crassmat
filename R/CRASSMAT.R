@@ -44,5 +44,3 @@ crassmat <- function(data, sample_thres, conditional) {
     return(data_copy)
     
 } ## close function
-
-## end
