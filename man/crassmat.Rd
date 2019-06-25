@@ -35,7 +35,7 @@ A_train <- crassmat(data = A,            # matrix
 Kunz, N. (2019). \emph{Unsupervised Learning for Submarket Modeling: A Proxy for Neighborhood Change} (Master's Thesis). Columbia University, New York, NY.
 }
 \author{
-Nick Kunz <\url{nick.kunz@columbia.edu}>
+Nick Kunz <\email{nick.kunz@columbia.edu}>
 }
 \keyword{conditional}
 \keyword{imputation}
