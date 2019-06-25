@@ -1,7 +1,13 @@
+CRASSMAT-0.0.3: 2019-06-24
+==========================
+- Completed CRAN requests for updated documentation
+- Includes toy data for clarity on example vignette
+- Documentation includes reference to pending publication
+
 CRASSMAT-0.0.2: 2019-06-23
 ==========================
 - Completed CRAN corrections and documentation
-- Includes example vignette 
+- Documentation includes example vignette 
 
 CRASSMAT-0.0.1: 2019-06-22
 ==========================
