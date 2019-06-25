@@ -40,4 +40,3 @@ A_train <- crassmat(data = A,            # matrix
                     conditional = 1)     # keep > 1 observed values per row
 
 ```
-For more information, please see: [vignette](https://cran.r-project.org/web/packages/NNLM/vignettes/Fast-And-Versatile-NMF.html) on CRAN.
