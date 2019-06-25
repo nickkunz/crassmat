@@ -1,3 +1,8 @@
+CRASSMAT-0.0.4: 2019-06-25
+==========================
+- Completed CRAN requests for updated documentation
+- Removed orphaned suggested packages
+
 CRASSMAT-0.0.3: 2019-06-24
 ==========================
 - Completed CRAN requests for updated documentation
