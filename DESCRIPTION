@@ -8,7 +8,7 @@ Maintainer: Nick Kunz <nick.kunz@columbia.edu>
 Description: Conducts conditional random sampling on observed values in sparse matrices. Useful for training and test set splitting sparse matrices to estimate the predictive accuracy of data imputation methods, such as matrix factorization or singular value decomposition (SVD). Although designed for applications with sparse matrices, CRASSMAT can also be applied to complete matrices, as well as to those containing missing values.
 License: GPL-3
 Depends: svMisc
-Suggests: NMF, NNLM, recommenderlab
+Suggests: NMF, recommenderlab
 Encoding: UTF-8
 RoxygenNote: 6.1.1
 ByteCompile: TRUE
