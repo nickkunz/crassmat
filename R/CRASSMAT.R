@@ -3,7 +3,7 @@
 #' @aliases crassmat
 #' @details Takes a matrix A\emph{ij} and samples out a single \emph{jth} value on the condition that the number of \emph{jth} values within the \emph{ith} observation is greater than the specified conditional (minimum number of values to remain per \emph{ith} observation). This process repeats itself until the specified sampling threshold is met.
 #' @keywords matrix matrices sampling sparse conditional random imputation
-#' @author Nick Kunz <\url{nick.kunz@columbia.edu}>
+#' @author Nick Kunz <\email{nick.kunz@columbia.edu}>
 #' @export crassmat
 #' @param data a matrix (supports sparsity, missing values, and complete matrices)
 #' @param sample_thres a non-negative decimal specifying the percentage of observed values sampled out
