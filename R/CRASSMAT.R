@@ -1,5 +1,5 @@
-#' @title Conditional Random Sampling Sparse Matrices (CRASSMAT)
-#' @description Conducts conditional random sampling on observed values in sparse matrices. Useful for training and test set splitting sparse matrices to estimate the predictive accuracy of data imputation methods, such as matrix factorization or singular value decomposition (SVD). Although designed for applications with sparse matrices, CRASSMAT can also be applied to complete matrices, as well as to those containing missing values.
+#' @title Conditional Random Sampling Sparse Matrices
+#' @description Conducts conditional random sampling on observed values in sparse matrices. Useful for training and test set splitting sparse matrices prior to model fitting in cross-validation procedures. Useful for estimate the predictive accuracy of data imputation methods, such as matrix factorization or singular value decomposition (SVD). Although designed for applications with sparse matrices, CRASSMAT can also be applied to complete matrices, as well as to those containing missing values.
 #' @aliases crassmat
 #' @details Takes a matrix A\emph{ij} and samples out a single \emph{jth} value on the condition that the number of \emph{jth} values within the \emph{ith} observation is greater than the specified conditional (minimum number of values to remain per \emph{ith} observation). This process repeats itself until the specified sampling threshold is met.
 #' @keywords matrix matrices sampling sparse conditional random imputation
@@ -8,7 +8,7 @@
 #' @param data a matrix (supports sparsity, missing values, and complete matrices)
 #' @param sample_thres a non-negative decimal specifying the percentage of observed values sampled out
 #' @param conditional a non-negative integer specifying the number of observed values to remain per row
-#' @return Returns a matrix object with observed values removed according to the \code{sample_thres} and \code{conditional}.
+#' @return Returns a matrix object with observed values removed according to the specified \code{sample_thres} and \code{conditional}.
 #' @references Kunz, N. (2019). \emph{Unsupervised Learning for Submarket Modeling: A Proxy for Neighborhood Change} (Master's Thesis). Columbia University, New York, NY.
 #' @examples
 #' ## test set
