@@ -4,7 +4,7 @@
 \name{A}
 \alias{A}
 \title{Sparse Matrix A}
-\format{A sparse matrix containing 15 columns (j) and 3000 observations (i)}
+\format{A sparse matrix containing 15 columns and 3000 observations}
 \usage{
 data(A)
 }
@@ -12,7 +12,7 @@ data(A)
 Data for implementing the example given for CRASSMAT.
 }
 \author{
-Nick Kunz \email{nick.kunz@columbia.edu}
+Nick Kunz <\email{nick.kunz@columbia.edu}>
 }
 \keyword{data}
 \keyword{matrix}
