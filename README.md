@@ -4,13 +4,13 @@
 
 
 ## Description
-This R package contains a novel matrix sampling algorithm for cross-validation procedures. Conducts conditional random sampling on observed values in sparse matrices. Useful for training and test set splitting sparse matrices prior to model fitting in cross-validation procedures. Useful for estimating the predictive accuracy of data imputation methods, such as matrix factorization or singular value decomposition (SVD). Although designed for applications with sparse matrices, CRASSMAT can also be applied to complete matrices, as well as to those containing missing values.
+This R package contains a novel matrix sampling algorithm. Conducts conditional random sampling on observed values in sparse matrices. Useful for training and test set splitting sparse matrices prior to model fitting in cross-validation procedures. Useful for estimating the predictive accuracy of data imputation methods, such as matrix factorization or singular value decomposition (SVD). Although designed for applications with sparse matrices, CRASSMAT can also be applied to complete matrices, as well as to those containing missing values.
 
 ## Details
 CRASSMAT takes a matrix A<i>ij</i> and samples out a single <i>jth</i> value on the condition that the number of <i>jth</i> values within the <i>ith</i> observation is greater than the specified conditional (minimum number of values to remain per <i>ith</i> observation). This process repeats itself until the specified sampling threshold is met.
 
 ## Features
-1. Simple implementation for training / test set splitting sparse matrices, useful in cross-validation procedures
+1. Simple implementation for data splitting sparse matrices, useful in cross-validation procedures
 2. Supports sparse matrices, matrices with missing values, and complete matrices
 3. Supports implementation into various recommendation system settings
 4. Provides a novel alternative to other matrix sampling methods <br>
