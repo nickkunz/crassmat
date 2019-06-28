@@ -39,7 +39,7 @@ crassmat <- function(data, sample_thres, conditional) {
                 
                 ## print prompt when completed
                 if(i == nrow(data_copy)) 
-                    cat("Complete!")
+                    message("Complete!")
                 
             } ## close matrix for loop conditional statement
         } ## close matrix for loop through rows not na
