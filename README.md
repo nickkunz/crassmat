@@ -1,6 +1,6 @@
 # Conditional Random Sampling Sparse Matrices (CRASSMAT)
 
-[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/crassmat)](http://cran.r-project.org/package=crassmat)
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/crassmat)](https://cran.r-project.org/package=crassmat)
 
 
 ## Description
