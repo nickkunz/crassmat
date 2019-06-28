@@ -17,7 +17,7 @@ crassmat(data, sample_thres, conditional)
 Returns a matrix object with observed values removed according to the specified \code{sample_thres} and \code{conditional}.
 }
 \description{
-Conducts conditional random sampling on observed values in sparse matrices. Useful for training and test set splitting sparse matrices prior to model fitting in cross-validation procedures. Useful for estimating the predictive accuracy of data imputation methods, such as matrix factorization or singular value decomposition (SVD). Although designed for applications with sparse matrices, CRASSMAT can also be applied to complete matrices, as well as to those containing missing values.
+Conducts conditional random sampling on observed values in sparse matrices. Useful for training and test set splitting sparse matrices prior to model fitting in cross-validation procedures and estimating the predictive accuracy of data imputation methods, such as matrix factorization or singular value decomposition (SVD). Although designed for applications with sparse matrices, CRASSMAT can also be applied to complete matrices, as well as to those containing missing values.
 }
 \details{
 Takes a matrix A\emph{ij} and samples out a single \emph{jth} value on the condition that the number of \emph{jth} values within the \emph{ith} observation is greater than the specified conditional (minimum number of values to remain per \emph{ith} observation). This process repeats itself until the specified sampling threshold is met.
