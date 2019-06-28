@@ -10,7 +10,7 @@ This R package contains a novel matrix sampling algorithm. Conducts conditional 
 CRASSMAT takes a matrix A<i>ij</i> and samples out a single <i>jth</i> value on the condition that the number of <i>jth</i> values within the <i>ith</i> observation is greater than the specified conditional (minimum number of values to remain per <i>ith</i> observation). This process repeats itself until the specified sampling threshold is met.
 
 ## Features
-1. Simple implementation for training / test set splitting sparse matrices, useful in cross-validation procedures
+1. Simple implementation for data splitting sparse matrices, useful in cross-validation procedures
 2. Supports sparse matrices, matrices with missing values, and complete matrices
 3. Supports implementation into various recommendation system settings
 4. Provides a novel alternative to other matrix sampling methods <br>
