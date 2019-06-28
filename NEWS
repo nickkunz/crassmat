@@ -1,3 +1,9 @@
+CRASSMAT-0.0.6: 2019-06-28
+==========================
+- Completed CRAN requests for updated documentation
+- Fixed CRAN urls
+- Replaced message function
+
 CRASSMAT-0.0.5: 2019-06-26
 ==========================
 - Completed CRAN requests for updated documentation
