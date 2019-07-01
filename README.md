@@ -1,7 +1,9 @@
 # CRASSMAT: Conditional Random Sampling Sparse Matrices
 
-[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/crassmat)](https://cran.r-project.org/package=crassmat)
-
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/crassmat)](https://cran.r-project.org/package=crassmat) 
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Build Status](https://travis-ci.org/nickkunz/crassmat.svg?branch=master)](https://travis-ci.org/nickkunz/crassmat) 
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/nickkunz/crassmat/master.svg)
 
 ## Description
 This R package contains a novel matrix sampling algorithm. Conducts conditional random sampling on observed values in sparse matrices. Useful for training and test set splitting sparse matrices prior to model fitting in cross-validation procedures and for estimating the predictive accuracy of data imputation methods, such as matrix factorization or singular value decomposition (SVD). Although designed for applications with sparse matrices, CRASSMAT can also be applied to complete matrices, as well as to those containing missing values.
