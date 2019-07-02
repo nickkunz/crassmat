@@ -18,13 +18,13 @@ CRASSMAT takes a matrix A<i>ij</i> and samples out a single <i>jth</i> value on 
 4. Provides a novel alternative to other matrix sampling methods <br>
 (eg. Wold 'speckled style' hold-outs, Gabriel 'block style' hold-outs) 
 
-## Installation 
-
+## Installation
 ```r
-## load devtools 
-library(devtools)
+## install CRAN release
+install.packages('crassmat')
 
-## install crassmat
+## install developer version
+library(devtools)
 devtools::install_github('nickkunz/crassmat')
 ```
 
