@@ -48,7 +48,7 @@ A_train <- crassmat(data = A,            # matrix
 
 ## Contributions
 
-CRASSMAT has been developed and used by Nick Kunz. However, it is open for public improvements and maintenence. Your help is valued to make the package better for everyone.
+CRASSMAT is open for public improvements and maintenence. Your help is valued to make the package better for everyone.
 
 ## Reference
 
