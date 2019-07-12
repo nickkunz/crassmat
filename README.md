@@ -50,7 +50,7 @@ A_train <- crassmat(data = A,            # matrix
 
 CRASSMAT is open for improvements and maintenence. Your help is valued to make the package better for everyone.
 
-## Reference
+## References
 
 Kunz, N. (2019). Unsupervised Learning for Submarket Modeling: A Proxy for Neighborhood Change (Master’s Thesis). Columbia University, New York, NY. https://doi.org/10.7916/d8-rj87-yx32.
 
