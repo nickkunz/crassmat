@@ -44,7 +44,7 @@ A_train <- crassmat(data = A,            # matrix
 ```
 ## License
 
-© Nick Kunz, 2019. Licensed under the General Public License v3.0 (GPL-3).
+© Nick Kunz, 2019. Licensed under the General Public License v3.0 (GPLv3).
 
 ## Contributions
 
