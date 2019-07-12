@@ -52,6 +52,6 @@ CRASSMAT is open for improvements and maintenence. Your help is valued to make t
 
 ## References
 
-Kunz, N. (2019). Unsupervised Learning for Submarket Modeling: A Proxy for Neighborhood Change (Master’s Thesis). Columbia University, New York, NY. https://doi.org/10.7916/d8-rj87-yx32.
+Kunz, N. (2019). <i>Unsupervised Learning for Submarket Modeling: A Proxy for Neighborhood Change</i> (Master’s Thesis). Columbia University, New York, NY. https://doi.org/10.7916/d8-rj87-yx32.
 
-Kunz, N. (2019). CRASSMAT: Conditional Random Sampling Sparse Matrices. The Comprehensive R Archive Network (CRAN). https://cran.r-project.org/web/packages/crassmat/index.html.
+Kunz, N. (2019). <i>CRASSMAT: Conditional Random Sampling Sparse Matrices</i>. The Comprehensive R Archive Network (CRAN). https://cran.r-project.org/web/packages/crassmat/index.html.
