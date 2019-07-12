@@ -42,3 +42,16 @@ A_train <- crassmat(data = A,            # matrix
                     conditional = 1)     # keep > 1 observed values per row
 
 ```
+## License
+
+© Nick Kunz, 2019. Licensed under the General Public License v3.0 (GPL-3).
+
+## Contributions
+
+CRASSMAT has been developed and used by Nick Kunz. However, it is open for public improvements and maintenence. Your help is valued to make the package better for everyone.
+
+## Reference
+
+Kunz, N. (2019). Unsupervised Learning for Submarket Modeling: A Proxy for Neighborhood Change (Master’s Thesis). Columbia University, New York, NY. https://doi.org/10.7916/d8-rj87-yx32.
+
+Kunz, N. (2019). CRASSMAT: Conditional Random Sampling Sparse Matrices. The Comprehensive R Archive Network (CRAN). https://cran.r-project.org/web/packages/crassmat/index.html.
