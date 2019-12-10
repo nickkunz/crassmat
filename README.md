@@ -2,7 +2,7 @@
   <img src="https://github.com/nickkunz/crassmat/blob/master/media/crassmat_banner.png">
 </div>
 
-## Conditional Random Sampling Sparse Matrices
+# Conditional Random Sampling Sparse Matrices
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/crassmat)](https://cran.r-project.org/package=crassmat) 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
