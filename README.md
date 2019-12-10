@@ -2,8 +2,6 @@
   <img src="https://github.com/nickkunz/crassmat/blob/master/media/crassmat_banner.png">
 </div>
 
-https://github.com/nickkunz/crassmat/blob/master/media/crassmat_banner.png
-
 ## Conditional Random Sampling Sparse Matrices
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/crassmat)](https://cran.r-project.org/package=crassmat) 
