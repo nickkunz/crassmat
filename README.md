@@ -6,7 +6,8 @@
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/crassmat)](https://cran.r-project.org/package=crassmat) 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Build Status](https://travis-ci.org/nickkunz/crassmat.svg?branch=master)](https://travis-ci.org/nickkunz/crassmat) 
+[![Build Status](https://travis-ci.org/nickkunz/crassmat.svg?branch=master)](https://travis-ci.org/nickkunz/crassmat)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f05cad864ada41d3b31a777348479666)](https://www.codacy.com/manual/nickkunz/crassmat?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nickkunz/crassmat&amp;utm_campaign=Badge_Grade)
 [![GitHub last commit (branch)](https://img.shields.io/github/last-commit/nickkunz/crassmat/master.svg)](https://github.com/nickkunz/crassmat)
 
 ## Description
